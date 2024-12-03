@@ -1,0 +1,64 @@
+/* 全体設定 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black; /* 文字色を黒に設定 */
+    background-image: url('images/mig.jpg'); /* 背景画像 */
+    background-size: cover; /* 背景を画面全体に表示 */
+    background-repeat: no-repeat; /* 背景を繰り返さない */
+    background-attachment: fixed; /* スクロールしても固定 */
+    background-position: center; /* 背景画像を中央配置 */
+    line-height: 1.6; /* 行間を調整 */
+}
+
+/* ヘッダー */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.9); /* ヘッダー背景を白に変更 */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* メインセクション */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* セクションタイトル */
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: black; /* セクションタイトルも黒に */
+}
+
+/* リスト */
+ul {
+    list-style: disc inside;
+    padding: 0;
+    margin: 15px 0;
+}
+
+a {
+    color: #0066cc; /* 青色リンク */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.9); /* フッター背景を白に変更 */
+    color: black; /* フッター文字色も黒に */
+}
